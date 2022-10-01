@@ -4,7 +4,7 @@ from wishlist.models import ItemWishlist
 def show_wishlist(request):
     data_wishlist_item = ItemWishlist.objects.all()
     context = {
-    'list_item': data_wishlist_item,
-    'name': 'Azra'
+        'list_item': data_wishlist_item,
+        'name': 'Azra'
     }
     return render(request, "wishlist.html", context)

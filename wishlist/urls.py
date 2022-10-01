@@ -1,3 +1,4 @@
+from django.contrib import admin
 from django.urls import path
 from wishlist.views import show_wishlist
 
